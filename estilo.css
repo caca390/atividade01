@@ -1,0 +1,105 @@
+:root{
+--Texto_escuro: #14183E;
+--Azul: #4372EB;
+--Cinza_claro: #9A9EA6;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans';
+    margin: 0px;
+}
+
+#logomarca{
+    border: solid 1px var(--Cinza_claro);
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    
+}
+
+#marca{
+margin-left: 5vw;
+height: 5vw;
+}
+
+#usuario{
+ margin-left: 65vw;
+ height: 3vw;
+ width: 3vw;
+}
+
+#conta{
+    margin: 2vw;
+    font-size: 20px;
+    font-size: 10px;
+}
+
+#color{
+    color: var(--Azul);
+}
+
+#texto1{
+    color: #14183E;
+    font-size: 25px;
+    margin-left: 7vw;
+    margin-top: 7vw;
+    display: flex;
+    flex-direction: column;
+    /* border: red 2px solid; */
+    height: 40vw;
+
+}
+#texto1 img{
+    height: 40vw;
+    width: 40vw;
+    float: right;
+    margin-left: 45vw;
+    margin-top: -31vw;
+}
+
+#botao{
+    font-size: 6px;
+    height: 40px;
+    width: 100px;
+    background-color: var(--Azul);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* border: red 2px solid; */
+    display: flex;  
+    margin-top: -5rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+}
+
+#veja{
+    font-size: 12px;
+    margin-left: 14rem;
+    margin-top: -1.6rem;
+    color: rgba(36, 35, 35, 0.65);
+    font-weight: 900;
+}
+
+#latam{
+    height: 7rem;
+    width: 7rem;
+    margin-top: 2rem;
+    margin-left: 4.5rem;
+}
+
+#expedia{
+    height: 4rem;
+    width: 7rem;
+    margin-left: 4.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#qantas{
+    height: 3rem;
+    width: 7rem;
+    margin-bottom: 2rem;
+    margin-left: 9rem;
+}
+
+
